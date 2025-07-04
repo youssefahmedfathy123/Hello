@@ -1,0 +1,11 @@
+C:\Users\VIP\Desktop\Hello\Hello.Application\bin\Debug\net9.0\Hello.Application.deps.json
+C:\Users\VIP\Desktop\Hello\Hello.Application\bin\Debug\net9.0\Hello.Application.dll
+C:\Users\VIP\Desktop\Hello\Hello.Application\bin\Debug\net9.0\Hello.Application.pdb
+C:\Users\VIP\Desktop\Hello\Hello.Application\obj\Debug\net9.0\Hello.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VIP\Desktop\Hello\Hello.Application\obj\Debug\net9.0\Hello.Application.AssemblyInfoInputs.cache
+C:\Users\VIP\Desktop\Hello\Hello.Application\obj\Debug\net9.0\Hello.Application.AssemblyInfo.cs
+C:\Users\VIP\Desktop\Hello\Hello.Application\obj\Debug\net9.0\Hello.Application.csproj.CoreCompileInputs.cache
+C:\Users\VIP\Desktop\Hello\Hello.Application\obj\Debug\net9.0\Hello.Application.dll
+C:\Users\VIP\Desktop\Hello\Hello.Application\obj\Debug\net9.0\refint\Hello.Application.dll
+C:\Users\VIP\Desktop\Hello\Hello.Application\obj\Debug\net9.0\Hello.Application.pdb
+C:\Users\VIP\Desktop\Hello\Hello.Application\obj\Debug\net9.0\ref\Hello.Application.dll
