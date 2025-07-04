@@ -9,3 +9,5 @@ C:\Users\VIP\Desktop\Hello\Hello.Domain.Shared\obj\Debug\net9.0\Hello.Domain.Sha
 C:\Users\VIP\Desktop\Hello\Hello.Domain.Shared\obj\Debug\net9.0\refint\Hello.Domain.Shared.dll
 C:\Users\VIP\Desktop\Hello\Hello.Domain.Shared\obj\Debug\net9.0\Hello.Domain.Shared.pdb
 C:\Users\VIP\Desktop\Hello\Hello.Domain.Shared\obj\Debug\net9.0\ref\Hello.Domain.Shared.dll
+C:\Users\VIP\Desktop\Hello\Hello.Domain.Shared\obj\Debug\net9.0\Hello.Domain.Shared.sourcelink.json
+C:\Users\VIP\Desktop\Hello\Hello.Domain.Shared\obj\Debug\net9.0\Hello.Domain.Shared.csproj.AssemblyReference.cache

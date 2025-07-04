@@ -1,13 +1,16 @@
 ﻿@inject IAuthorizationService AuthorizationService
 
+
 @using PermissionBasedAuthorizationIntDotNet5.Contants
 
 @{
     ViewData["Title"] = "Products";
 }
 
+
 <h1>Manage Products</h1>
 <hr />
+
 
 @if (AuthorizationService.AuthorizeAsync(User, Permissions.Products.View).Result.Succeeded)
 {
@@ -28,4 +31,5 @@
 {
     <a href="#" class="btn btn-danger">Delete</a>
 }
+
 

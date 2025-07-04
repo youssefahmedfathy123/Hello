@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6c+/dTD3CV0=",
+  "dgSpecHash": "mxKP19tgze8=",
   "success": true,
   "projectFilePath": "C:\\Users\\VIP\\Desktop\\Hello\\Hello.Domain\\Hello.Domain.csproj",
   "expectedPackageFiles": [
@@ -33,12 +33,5 @@
     "C:\\Users\\VIP\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\VIP\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.12.1\\system.identitymodel.tokens.jwt.8.12.1.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
-    }
-  ]
+  "logs": []
 }

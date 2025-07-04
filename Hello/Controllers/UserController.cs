@@ -6,9 +6,9 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using PermissionBasedAuthorizationIntDotNet5.Contants;
 using System.Data;
-using System.Runtime.InteropServices;
-using System.Threading.Tasks;
+using System.Security.Claims;
 
 namespace Hello.Controllers
 {
@@ -33,6 +33,8 @@ namespace Hello.Controllers
         #endregion
 
 
+
+        #region First
         public async Task<IActionResult> Index()
         {
             var users = await _userManager.Users.ToListAsync();
@@ -80,6 +82,7 @@ namespace Hello.Controllers
         }
 
 
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> UpdateRoles(UserRolesVM model)
@@ -90,7 +93,7 @@ namespace Hello.Controllers
                 return NotFound();
 
             var userRoles = await _userManager.GetRolesAsync(user);
-            await _userManager.RemoveFromRolesAsync(user,userRoles);
+            await _userManager.RemoveFromRolesAsync(user, userRoles);
 
             await _userManager.AddToRolesAsync(user, model.Roles.Where(r => r.IsSelected).Select(r => r.DisplayValue));
 
@@ -98,6 +101,78 @@ namespace Hello.Controllers
             return RedirectToAction(nameof(Index));
 
 
+        }
+
+
+        #endregion
+
+
+        public async Task<IActionResult> ManagePermissions(string userId)
+        {
+            var user = await _userManager.FindByIdAsync(userId);
+
+            if (user == null)
+                return NotFound();
+
+            var allPermissions = Permissions.GenerateAllPermissions();
+
+            var ValuesOfPermissions = allPermissions.Select(p => new CheckBoxViewModel
+            {
+                DisplayValue = p
+            }).ToList();
+
+
+
+            var userPermissions = _userManager.GetClaimsAsync(user).Result.Select(x => x.Value);
+
+
+            foreach (var permission in ValuesOfPermissions)
+            {
+                if (userPermissions.Any(a => a == permission.DisplayValue))
+                    permission.IsSelected = true;
+            }
+
+
+
+            var model = new UserPermissionsVM
+            {
+                UserId = userId,
+                UserName = user.UserName,
+                Permissions = ValuesOfPermissions.ToList()
+            };
+
+
+            return View(model);
+        }
+
+
+
+
+
+        [HttpPost]
+        public async Task<IActionResult> ManagePermissions(UserPermissionsVM model)
+        {
+
+            var user = await _userManager.FindByIdAsync(model.UserId);
+            if (user == null)
+                return NotFound();
+
+            var allClaims = await _userManager.GetClaimsAsync(user);
+
+            foreach (var c in allClaims)
+            {
+                await _userManager.RemoveClaimAsync(user, c);
+            }
+            var TrueSelected = model.Permissions.Where(x => x.IsSelected).ToList();
+
+
+            foreach (var per in TrueSelected)
+            {
+                await _userManager.AddClaimAsync(user, new Claim("Permission", per.DisplayValue));
+            }
+
+
+            return RedirectToAction(nameof(Index));
         }
 
 
@@ -194,7 +269,7 @@ namespace Hello.Controllers
 
             var roles = await _userManager.GetRolesAsync(user);
 
-            var token =await  _jwt.GenerateToken(roles.ToList(), user.UserName, user.Id);
+            var token = await _jwt.GenerateToken(roles.ToList(), user.UserName, user.Id);
 
 
             Response.Cookies.Append("jwt", token, new CookieOptions
@@ -205,12 +280,14 @@ namespace Hello.Controllers
                 Expires = DateTimeOffset.UtcNow.AddHours(1)
             });
 
+
             //await _signIn.SignInAsync(user, false);
             Console.WriteLine(token);
 
 
             return RedirectToAction("Index", "Home");
         }
+
 
 
         public async Task<IActionResult> Logout()
@@ -225,6 +302,9 @@ namespace Hello.Controllers
 
 
 
+
+
     }
 }
+
 

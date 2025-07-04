@@ -96,7 +96,11 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\VIP\\Desktop\\Hello\\Hello.Domain.Shared\\Hello.Domain.Shared.csproj": {
+                "projectPath": "C:\\Users\\VIP\\Desktop\\Hello\\Hello.Domain.Shared\\Hello.Domain.Shared.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -120,6 +124,10 @@
               "version": "[11.0.0, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.6, )"
             },
@@ -197,6 +205,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

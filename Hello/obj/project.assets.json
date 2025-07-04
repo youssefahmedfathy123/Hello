@@ -1686,8 +1686,10 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
+          "Hello.Domain.Shared": "1.0.0",
           "JWT": "11.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "9.0.6",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "9.0.6",
           "Microsoft.Extensions.Configuration.Abstractions": "9.0.6",
           "System.IdentityModel.Tokens.Jwt": "8.12.1"
         },
@@ -1715,6 +1717,9 @@
       "Hello.Domain.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "9.0.6"
+        },
         "compile": {
           "bin/placeholder/Hello.Domain.Shared.dll": {}
         },
@@ -4904,13 +4909,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
-    }
-  ]
+  }
 }

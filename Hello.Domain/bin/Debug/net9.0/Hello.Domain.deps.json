@@ -318,13 +318,26 @@
       },
       "Hello.Contract/1.0.0": {
         "dependencies": {
+          "Hello.Domain.Shared": "1.0.0",
           "JWT": "11.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "9.0.6",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "9.0.6",
           "Microsoft.Extensions.Configuration.Abstractions": "9.0.6",
           "System.IdentityModel.Tokens.Jwt": "8.12.1"
         },
         "runtime": {
           "Hello.Contract.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Hello.Domain.Shared/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "9.0.6"
+        },
+        "runtime": {
+          "Hello.Domain.Shared.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -535,6 +548,11 @@
       "hashPath": "system.identitymodel.tokens.jwt.8.12.1.nupkg.sha512"
     },
     "Hello.Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Hello.Domain.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,4 +1,5 @@
 ﻿using Hello.Contract.Interfaces;
+using Hello.Domain.Users;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
@@ -17,14 +18,17 @@ namespace Hello.Contract.Services
     {
         private readonly IConfiguration _configuration;
         private readonly RoleManager<IdentityRole> _roleManager;
-        public Jwt(IConfiguration configuration, RoleManager<IdentityRole> roleManager)
+        private readonly UserManager<User> _userManager;
+
+        public Jwt(IConfiguration configuration, RoleManager<IdentityRole> roleManager, UserManager<User> UserManager)
         {
             _configuration = configuration;
             _roleManager = roleManager;
+            _userManager = UserManager;
         }
 
 
-        public async Task<string> GenerateToken(List<string> roles, string username, string Id)
+        public async Task<string> GenerateToken(List<string> roles, string? username, string Id)
         {               
 
             var Claims = new List<Claim>()
@@ -32,6 +36,20 @@ namespace Hello.Contract.Services
             new Claim(ClaimTypes.Name, username),
             new Claim(ClaimTypes.NameIdentifier, Id),
             };
+
+            var user = await _userManager.FindByNameAsync(username);
+
+            if (user == null)
+                return "User not found";
+
+            var res = await _userManager.GetClaimsAsync(user);
+
+
+            foreach (var claim in res.Where(c => c.Type == "Permission"))
+            {
+                Claims.Add(claim);
+            }
+
 
 
             foreach (var role in roles)
@@ -42,16 +60,18 @@ namespace Hello.Contract.Services
                 if (identityRole == null)
                     continue;
 
-                // هات الـ claims الخاصة بالـ role
+
                 var roleClaims = await _roleManager.GetClaimsAsync(identityRole);
 
 
                 foreach (var claim in roleClaims.Where(c => c.Type == "Permission"))
                 {
-                    Claims.Add(claim);
+                    if(!res.Any(x => x.Value == claim.Value))
+                      Claims.Add(claim);
                 }
 
             }
+
 
 
 

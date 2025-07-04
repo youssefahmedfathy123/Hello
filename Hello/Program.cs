@@ -28,16 +28,9 @@ builder.Services.AddDbContext<HelloDbContext>(options =>
 
 
 
-builder.Services.AddIdentity<User,IdentityRole>( options =>
-{
-}
-    )
+builder.Services.AddIdentity<User,IdentityRole>()
     .AddEntityFrameworkStores<HelloDbContext>()
     .AddDefaultTokenProviders();
-
-
-
-
 
 
 
@@ -71,10 +64,13 @@ builder.Services.AddAuthentication(options =>
 builder.Services.AddScoped<IJwt, Jwt>();
 
 
+
+
 builder.Services.AddLogging(logging =>
 {
     logging.AddConsole();
 });
+
 
 
 
@@ -96,6 +92,7 @@ builder.Services.AddAuthorization(options =>
 var app = builder.Build();
 
 
+
 // Seeding
 using (var scope = app.Services.CreateScope())
 {
@@ -111,10 +108,14 @@ using (var scope = app.Services.CreateScope())
 
 
 
+
+
+
 // Jwt 
 app.Use(async (context, next) =>
 {
     var token = context.Request.Cookies["jwt"];
+
     if (!string.IsNullOrEmpty(token))
     {
         context.Request.Headers["Authorization"] = "Bearer " + token;
@@ -122,6 +123,11 @@ app.Use(async (context, next) =>
 
     await next();
 });
+
+
+
+
+
 
 
 

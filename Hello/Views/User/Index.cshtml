@@ -16,13 +16,14 @@
             <th>UserName</th>
             <th>Email</th>
             <th>Roles</th>
+            <th>Permissions</th>
         </tr>
     </thead>
     <tbody>
         @foreach (var user in Model)
         {
             <tr>
-                <td>@user.UserName</td>
+                <td>@user.Id</td>
                 <td>@user.Email</td>
                 <td>
                     @if (user.Roles != null && user.Roles.Any())
@@ -41,6 +42,9 @@
                 </td>
                 <td>
                     <a class="btn btn-primary" asp-action="ManageRoles" asp-route-userId="@user.Id">Manage Roles</a>
+                </td>
+                <td>
+                    <a class="btn btn-primary" asp-action="ManagePermissions" asp-route-userId="@user.Id">ManagePermissions</a>
                 </td>
             </tr>
         }

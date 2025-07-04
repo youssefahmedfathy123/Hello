@@ -1090,8 +1090,10 @@
       },
       "Hello.Contract/1.0.0": {
         "dependencies": {
+          "Hello.Domain.Shared": "1.0.0",
           "JWT": "11.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "9.0.6",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "9.0.6",
           "Microsoft.Extensions.Configuration.Abstractions": "9.0.6",
           "System.IdentityModel.Tokens.Jwt": "8.12.1"
         },
@@ -1115,6 +1117,9 @@
         }
       },
       "Hello.Domain.Shared/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "9.0.6"
+        },
         "runtime": {
           "Hello.Domain.Shared.dll": {
             "assemblyVersion": "1.0.0.0",
