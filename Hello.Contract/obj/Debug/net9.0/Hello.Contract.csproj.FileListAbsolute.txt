@@ -10,3 +10,4 @@ C:\Users\VIP\Desktop\Hello\Hello.Contract\obj\Debug\net9.0\refint\Hello.Contract
 C:\Users\VIP\Desktop\Hello\Hello.Contract\obj\Debug\net9.0\Hello.Contract.pdb
 C:\Users\VIP\Desktop\Hello\Hello.Contract\obj\Debug\net9.0\ref\Hello.Contract.dll
 C:\Users\VIP\Desktop\Hello\Hello.Contract\obj\Debug\net9.0\Hello.Contract.csproj.AssemblyReference.cache
+C:\Users\VIP\Desktop\Hello\Hello.Contract\obj\Debug\net9.0\Hello.Contract.sourcelink.json

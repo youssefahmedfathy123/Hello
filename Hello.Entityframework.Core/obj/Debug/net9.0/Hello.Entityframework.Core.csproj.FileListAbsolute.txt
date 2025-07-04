@@ -17,3 +17,4 @@ C:\Users\VIP\Desktop\Hello\Hello.Entityframework.Core\obj\Debug\net9.0\Hello.Ent
 C:\Users\VIP\Desktop\Hello\Hello.Entityframework.Core\obj\Debug\net9.0\ref\Hello.Entityframework.Core.dll
 C:\Users\VIP\Desktop\Hello\Hello.Entityframework.Core\bin\Debug\net9.0\Hello.Contract.dll
 C:\Users\VIP\Desktop\Hello\Hello.Entityframework.Core\bin\Debug\net9.0\Hello.Contract.pdb
+C:\Users\VIP\Desktop\Hello\Hello.Entityframework.Core\obj\Debug\net9.0\Hello.Entityframework.Core.sourcelink.json

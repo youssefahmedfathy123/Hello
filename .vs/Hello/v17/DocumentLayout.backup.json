@@ -3,44 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\VIP\\Desktop\\Hello\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0C1BB9D2-8CB9-4E20-9464-E584EA54E098}|Hello\\Hello.csproj|c:\\users\\vip\\desktop\\hello\\hello\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C1BB9D2-8CB9-4E20-9464-E584EA54E098}|Hello\\Hello.csproj|solutionrelative:hello\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C1BB9D2-8CB9-4E20-9464-E584EA54E098}|Hello\\Hello.csproj|c:\\users\\vip\\desktop\\hello\\hello\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C1BB9D2-8CB9-4E20-9464-E584EA54E098}|Hello\\Hello.csproj|solutionrelative:hello\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0C1BB9D2-8CB9-4E20-9464-E584EA54E098}|Hello\\Hello.csproj|c:\\users\\vip\\desktop\\hello\\hello\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C1BB9D2-8CB9-4E20-9464-E584EA54E098}|Hello\\Hello.csproj|solutionrelative:hello\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C1BB9D2-8CB9-4E20-9464-E584EA54E098}|Hello\\Hello.csproj|c:\\users\\vip\\desktop\\hello\\hello\\filters\\permissionrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C1BB9D2-8CB9-4E20-9464-E584EA54E098}|Hello\\Hello.csproj|solutionrelative:hello\\filters\\permissionrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C1BB9D2-8CB9-4E20-9464-E584EA54E098}|Hello\\Hello.csproj|c:\\users\\vip\\desktop\\hello\\hello\\filters\\permissionpolicyprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C1BB9D2-8CB9-4E20-9464-E584EA54E098}|Hello\\Hello.csproj|solutionrelative:hello\\filters\\permissionpolicyprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C1BB9D2-8CB9-4E20-9464-E584EA54E098}|Hello\\Hello.csproj|c:\\users\\vip\\desktop\\hello\\hello\\filters\\permissionauthorizationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C1BB9D2-8CB9-4E20-9464-E584EA54E098}|Hello\\Hello.csproj|solutionrelative:hello\\filters\\permissionauthorizationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C1BB9D2-8CB9-4E20-9464-E584EA54E098}|Hello\\Hello.csproj|c:\\users\\vip\\desktop\\hello\\hello\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C1BB9D2-8CB9-4E20-9464-E584EA54E098}|Hello\\Hello.csproj|solutionrelative:hello\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C1BB9D2-8CB9-4E20-9464-E584EA54E098}|Hello\\Hello.csproj|c:\\users\\vip\\desktop\\hello\\hello\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C1BB9D2-8CB9-4E20-9464-E584EA54E098}|Hello\\Hello.csproj|solutionrelative:hello\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C1BB9D2-8CB9-4E20-9464-E584EA54E098}|Hello\\Hello.csproj|c:\\users\\vip\\desktop\\hello\\hello\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C1BB9D2-8CB9-4E20-9464-E584EA54E098}|Hello\\Hello.csproj|solutionrelative:hello\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C1BB9D2-8CB9-4E20-9464-E584EA54E098}|Hello\\Hello.csproj|c:\\users\\vip\\desktop\\hello\\hello\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0C1BB9D2-8CB9-4E20-9464-E584EA54E098}|Hello\\Hello.csproj|solutionrelative:hello\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB12D293-87D8-41A8-B2CA-6BF29F602BF6}|Hello.Contract\\Hello.Contract.csproj|c:\\users\\vip\\desktop\\hello\\hello.contract\\contants\\permissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB12D293-87D8-41A8-B2CA-6BF29F602BF6}|Hello.Contract\\Hello.Contract.csproj|solutionrelative:hello.contract\\contants\\permissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EB12D293-87D8-41A8-B2CA-6BF29F602BF6}|Hello.Contract\\Hello.Contract.csproj|c:\\users\\vip\\desktop\\hello\\hello.contract\\services\\jwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,12 +19,44 @@
       "RelativeMoniker": "D:0:0:{EB12D293-87D8-41A8-B2CA-6BF29F602BF6}|Hello.Contract\\Hello.Contract.csproj|solutionrelative:hello.contract\\interfaces\\ijwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0C1BB9D2-8CB9-4E20-9464-E584EA54E098}|Hello\\Hello.csproj|c:\\users\\vip\\desktop\\hello\\hello\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C1BB9D2-8CB9-4E20-9464-E584EA54E098}|Hello\\Hello.csproj|solutionrelative:hello\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1BB9D2-8CB9-4E20-9464-E584EA54E098}|Hello\\Hello.csproj|c:\\users\\vip\\desktop\\hello\\hello\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C1BB9D2-8CB9-4E20-9464-E584EA54E098}|Hello\\Hello.csproj|solutionrelative:hello\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB12D293-87D8-41A8-B2CA-6BF29F602BF6}|Hello.Contract\\Hello.Contract.csproj|c:\\users\\vip\\desktop\\hello\\hello.contract\\enum\\modules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB12D293-87D8-41A8-B2CA-6BF29F602BF6}|Hello.Contract\\Hello.Contract.csproj|solutionrelative:hello.contract\\enum\\modules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB12D293-87D8-41A8-B2CA-6BF29F602BF6}|Hello.Contract\\Hello.Contract.csproj|c:\\users\\vip\\desktop\\hello\\hello.contract\\contants\\permissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB12D293-87D8-41A8-B2CA-6BF29F602BF6}|Hello.Contract\\Hello.Contract.csproj|solutionrelative:hello.contract\\contants\\permissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1BB9D2-8CB9-4E20-9464-E584EA54E098}|Hello\\Hello.csproj|c:\\users\\vip\\desktop\\hello\\hello\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C1BB9D2-8CB9-4E20-9464-E584EA54E098}|Hello\\Hello.csproj|solutionrelative:hello\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1BB9D2-8CB9-4E20-9464-E584EA54E098}|Hello\\Hello.csproj|c:\\users\\vip\\desktop\\hello\\hello\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C1BB9D2-8CB9-4E20-9464-E584EA54E098}|Hello\\Hello.csproj|solutionrelative:hello\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{711D399A-C5E4-4A9C-B1D3-BD4DFCCE315C}|Hello.Domain\\Hello.Domain.csproj|c:\\users\\vip\\desktop\\hello\\hello.domain\\seed\\defaultroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{711D399A-C5E4-4A9C-B1D3-BD4DFCCE315C}|Hello.Domain\\Hello.Domain.csproj|solutionrelative:hello.domain\\seed\\defaultroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{711D399A-C5E4-4A9C-B1D3-BD4DFCCE315C}|Hello.Domain\\Hello.Domain.csproj|c:\\users\\vip\\desktop\\hello\\hello.domain\\seed\\defaultusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{711D399A-C5E4-4A9C-B1D3-BD4DFCCE315C}|Hello.Domain\\Hello.Domain.csproj|solutionrelative:hello.domain\\seed\\defaultusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C1BB9D2-8CB9-4E20-9464-E584EA54E098}|Hello\\Hello.csproj|c:\\users\\vip\\desktop\\hello\\hello\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0C1BB9D2-8CB9-4E20-9464-E584EA54E098}|Hello\\Hello.csproj|solutionrelative:hello\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0C1BB9D2-8CB9-4E20-9464-E584EA54E098}|Hello\\Hello.csproj|c:\\users\\vip\\desktop\\hello\\hello\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C1BB9D2-8CB9-4E20-9464-E584EA54E098}|Hello\\Hello.csproj|solutionrelative:hello\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C1BB9D2-8CB9-4E20-9464-E584EA54E098}|Hello\\Hello.csproj|c:\\users\\vip\\desktop\\hello\\hello\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C1BB9D2-8CB9-4E20-9464-E584EA54E098}|Hello\\Hello.csproj|solutionrelative:hello\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,116 +86,120 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\VIP\\Desktop\\Hello\\Hello\\Views\\Products\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Hello\\Views\\Products\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\VIP\\Desktop\\Hello\\Hello\\Views\\Products\\Edit.cshtml",
+              "RelativeToolTip": "Hello\\Views\\Products\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-04T08:20:20.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DefaultRoles.cs",
+              "DocumentMoniker": "C:\\Users\\VIP\\Desktop\\Hello\\Hello.Domain\\Seed\\DefaultRoles.cs",
+              "RelativeDocumentMoniker": "Hello.Domain\\Seed\\DefaultRoles.cs",
+              "ToolTip": "C:\\Users\\VIP\\Desktop\\Hello\\Hello.Domain\\Seed\\DefaultRoles.cs",
+              "RelativeToolTip": "Hello.Domain\\Seed\\DefaultRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T08:02:52.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Modules.cs",
+              "DocumentMoniker": "C:\\Users\\VIP\\Desktop\\Hello\\Hello.Contract\\Enum\\Modules.cs",
+              "RelativeDocumentMoniker": "Hello.Contract\\Enum\\Modules.cs",
+              "ToolTip": "C:\\Users\\VIP\\Desktop\\Hello\\Hello.Contract\\Enum\\Modules.cs",
+              "RelativeToolTip": "Hello.Contract\\Enum\\Modules.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T07:35:40.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\VIP\\Desktop\\Hello\\Hello\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Hello\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\VIP\\Desktop\\Hello\\Hello\\Controllers\\HomeController.cs*",
-              "RelativeToolTip": "Hello\\Controllers\\HomeController.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\VIP\\Desktop\\Hello\\Hello\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Hello\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwBIAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-03T18:21:25.833Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
               "Title": "IJwt.cs",
               "DocumentMoniker": "C:\\Users\\VIP\\Desktop\\Hello\\Hello.Contract\\Interfaces\\IJwt.cs",
               "RelativeDocumentMoniker": "Hello.Contract\\Interfaces\\IJwt.cs",
               "ToolTip": "C:\\Users\\VIP\\Desktop\\Hello\\Hello.Contract\\Interfaces\\IJwt.cs",
               "RelativeToolTip": "Hello.Contract\\Interfaces\\IJwt.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T16:56:43.008Z"
+              "WhenOpened": "2025-07-03T16:56:43.008Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "Jwt.cs",
               "DocumentMoniker": "C:\\Users\\VIP\\Desktop\\Hello\\Hello.Contract\\Services\\Jwt.cs",
               "RelativeDocumentMoniker": "Hello.Contract\\Services\\Jwt.cs",
               "ToolTip": "C:\\Users\\VIP\\Desktop\\Hello\\Hello.Contract\\Services\\Jwt.cs",
               "RelativeToolTip": "Hello.Contract\\Services\\Jwt.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAUwD4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T16:29:57.813Z"
+              "WhenOpened": "2025-07-03T16:29:57.813Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\VIP\\Desktop\\Hello\\Hello\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Hello\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\VIP\\Desktop\\Hello\\Hello\\Controllers\\UserController.cs",
               "RelativeToolTip": "Hello\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAL8AAAAAAAAAAAAAANUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-03T16:28:07.613Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PermissionRequirement.cs",
-              "DocumentMoniker": "C:\\Users\\VIP\\Desktop\\Hello\\Hello\\Filters\\PermissionRequirement.cs",
-              "RelativeDocumentMoniker": "Hello\\Filters\\PermissionRequirement.cs",
-              "ToolTip": "C:\\Users\\VIP\\Desktop\\Hello\\Hello\\Filters\\PermissionRequirement.cs",
-              "RelativeToolTip": "Hello\\Filters\\PermissionRequirement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T16:10:02.123Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PermissionPolicyProvider.cs",
-              "DocumentMoniker": "C:\\Users\\VIP\\Desktop\\Hello\\Hello\\Filters\\PermissionPolicyProvider.cs",
-              "RelativeDocumentMoniker": "Hello\\Filters\\PermissionPolicyProvider.cs",
-              "ToolTip": "C:\\Users\\VIP\\Desktop\\Hello\\Hello\\Filters\\PermissionPolicyProvider.cs",
-              "RelativeToolTip": "Hello\\Filters\\PermissionPolicyProvider.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAqwBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T16:09:44.502Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PermissionAuthorizationHandler.cs",
-              "DocumentMoniker": "C:\\Users\\VIP\\Desktop\\Hello\\Hello\\Filters\\PermissionAuthorizationHandler.cs",
-              "RelativeDocumentMoniker": "Hello\\Filters\\PermissionAuthorizationHandler.cs",
-              "ToolTip": "C:\\Users\\VIP\\Desktop\\Hello\\Hello\\Filters\\PermissionAuthorizationHandler.cs",
-              "RelativeToolTip": "Hello\\Filters\\PermissionAuthorizationHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T16:09:41.221Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "DefaultUsers.cs",
               "DocumentMoniker": "C:\\Users\\VIP\\Desktop\\Hello\\Hello.Domain\\Seed\\DefaultUsers.cs",
               "RelativeDocumentMoniker": "Hello.Domain\\Seed\\DefaultUsers.cs",
               "ToolTip": "C:\\Users\\VIP\\Desktop\\Hello\\Hello.Domain\\Seed\\DefaultUsers.cs",
               "RelativeToolTip": "Hello.Domain\\Seed\\DefaultUsers.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T16:04:41.175Z"
+              "WhenOpened": "2025-07-03T16:04:41.175Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\VIP\\Desktop\\Hello\\Hello\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Hello\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\VIP\\Desktop\\Hello\\Hello\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Hello\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAAC8AAAB7AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\VIP\\Desktop\\Hello\\Hello\\Views\\Shared\\_Layout.cshtml*",
+              "RelativeToolTip": "Hello\\Views\\Shared\\_Layout.cshtml*",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAADEAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-03T16:02:52.861Z"
+              "WhenOpened": "2025-07-03T16:02:52.861Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -203,9 +207,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\VIP\\Desktop\\Hello\\Hello\\Program.cs",
               "RelativeDocumentMoniker": "Hello\\Program.cs",
-              "ToolTip": "C:\\Users\\VIP\\Desktop\\Hello\\Hello\\Program.cs",
-              "RelativeToolTip": "Hello\\Program.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\VIP\\Desktop\\Hello\\Hello\\Program.cs*",
+              "RelativeToolTip": "Hello\\Program.cs*",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAF0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-03T16:01:34.173Z",
               "EditorCaption": ""
@@ -218,46 +222,46 @@
               "RelativeDocumentMoniker": "Hello\\Views\\Products\\Index.cshtml",
               "ToolTip": "C:\\Users\\VIP\\Desktop\\Hello\\Hello\\Views\\Products\\Index.cshtml",
               "RelativeToolTip": "Hello\\Views\\Products\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-03T15:56:03.269Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "RolesController.cs",
               "DocumentMoniker": "C:\\Users\\VIP\\Desktop\\Hello\\Hello\\Controllers\\RolesController.cs",
               "RelativeDocumentMoniker": "Hello\\Controllers\\RolesController.cs",
               "ToolTip": "C:\\Users\\VIP\\Desktop\\Hello\\Hello\\Controllers\\RolesController.cs",
               "RelativeToolTip": "Hello\\Controllers\\RolesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAHMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-03T15:55:34.31Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\VIP\\Desktop\\Hello\\Hello\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "Hello\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\VIP\\Desktop\\Hello\\Hello\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "Hello\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-03T15:55:22.345Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "Permissions.cs",
               "DocumentMoniker": "C:\\Users\\VIP\\Desktop\\Hello\\Hello.Contract\\Contants\\Permissions.cs",
               "RelativeDocumentMoniker": "Hello.Contract\\Contants\\Permissions.cs",
               "ToolTip": "C:\\Users\\VIP\\Desktop\\Hello\\Hello.Contract\\Contants\\Permissions.cs",
               "RelativeToolTip": "Hello.Contract\\Contants\\Permissions.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwCwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-03T15:54:54.618Z",
               "EditorCaption": ""

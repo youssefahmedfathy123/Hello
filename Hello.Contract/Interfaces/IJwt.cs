@@ -8,7 +8,7 @@ namespace Hello.Contract.Interfaces
 {
     public interface IJwt
     {
-        string GenerateToken(List<string> roles, string username, string Id);
+        Task<string> GenerateToken(List<string> roles, string username, string Id);
 
     }
 }

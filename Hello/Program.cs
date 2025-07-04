@@ -1,4 +1,5 @@
 ﻿using Hello.Contract.Interfaces;
+using Hello.Contract.Services;
 using Hello.Domain.Seed;
 using Hello.Domain.Users;
 using Hello.Entityframework.Core.EntityFrameworkCore;
@@ -10,7 +11,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
-using PermissionBasedAuthorizationIntDotNet5.Filters;
+using PermissionBasedAuthorizationIntDotNet5.Contants;
 using System.Text;
 
 
@@ -26,12 +27,6 @@ builder.Services.AddDbContext<HelloDbContext>(options =>
 );
 
 
-builder.Services.Configure<SecurityStampValidatorOptions>(options =>
-{
-    options.ValidationInterval = TimeSpan.Zero;
-});
-
-
 
 builder.Services.AddIdentity<User,IdentityRole>( options =>
 {
@@ -42,49 +37,60 @@ builder.Services.AddIdentity<User,IdentityRole>( options =>
 
 
 
-builder.Services.AddAuthorization();
-builder.Services.AddSingleton<IAuthorizationPolicyProvider, PermissionPolicyProvider>();
-builder.Services.AddScoped<IAuthorizationHandler, PermissionAuthorizationHandler>();
-
-// Cookies
-builder.Services.AddMemoryCache();
-builder.Services.AddSession();
-builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-    .AddCookie();
 
 
 
-//var jwtSettings = builder.Configuration.GetSection("JWT");
 
-//builder.Services.AddAuthentication(options =>
-//{
-//    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-//    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-//    options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
-//}
-//)
-//    .AddJwtBearer(Options =>
-//    {
-//        Options.TokenValidationParameters = new TokenValidationParameters
-//        {
-//            ValidateIssuer = true,
-//            ValidateAudience = true,
-//            ValidateLifetime = true,
-//            ValidateIssuerSigningKey = true,
 
-//            ValidIssuer = jwtSettings["Issuer"],
-//            ValidAudience = jwtSettings["audience"],
-//            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings["Key"]))
 
-//        };
-//    });
+var jwtSettings = builder.Configuration.GetSection("JWT");
 
-//builder.Services.AddSingleton<IJwt, Jwt>();
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+}
+)
+    .AddJwtBearer(Options =>
+    {
+        Options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+
+            ValidIssuer = jwtSettings["Issuer"],
+            ValidAudience = jwtSettings["audience"],
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings["Key"]))
+
+        };
+    });
+
+builder.Services.AddScoped<IJwt, Jwt>();
+
 
 builder.Services.AddLogging(logging =>
 {
     logging.AddConsole();
 });
+
+
+
+
+builder.Services.AddAuthorization(options =>
+{
+    var allPermissions = Permissions.GenerateAllPermissions();
+
+    foreach (var permission in allPermissions)
+    {
+        options.AddPolicy(permission, policy =>
+            policy.RequireClaim("Permission", permission));
+    }
+});
+
+
 
 
 var app = builder.Build();
@@ -106,16 +112,16 @@ using (var scope = app.Services.CreateScope())
 
 
 // Jwt 
-//app.Use(async (context, next) =>
-//{
-//    var token = context.Request.Cookies["jwt"];
-//    if (!string.IsNullOrEmpty(token))
-//    {
-//        context.Request.Headers["Authorization"] = "Bearer " + token;
-//    }
+app.Use(async (context, next) =>
+{
+    var token = context.Request.Cookies["jwt"];
+    if (!string.IsNullOrEmpty(token))
+    {
+        context.Request.Headers["Authorization"] = "Bearer " + token;
+    }
 
-//    await next();
-//});
+    await next();
+});
 
 
 

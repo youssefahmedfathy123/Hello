@@ -18,15 +18,17 @@ namespace Hello.Controllers
         #region feilds
         private readonly UserManager<User> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
-        //private readonly IJwt _jwt;
+        private readonly SignInManager<User> _signIn;
+        private readonly IJwt _jwt;
         #endregion
 
         #region ctor
-        public UserController(UserManager<User> userManager/*, IJwt jwt*/, RoleManager<IdentityRole> roleManager)
+        public UserController(UserManager<User> userManager, IJwt jwt, RoleManager<IdentityRole> roleManager, SignInManager<User> signIn)
         {
             _userManager = userManager;
             _roleManager = roleManager;
-            //_jwt = jwt;
+            _signIn = signIn;
+            _jwt = jwt;
         }
         #endregion
 
@@ -146,16 +148,18 @@ namespace Hello.Controllers
 
             var roles = await _userManager.GetRolesAsync(newUser);
 
-            //var token = _jwt.GenerateToken(roles.ToList(), newUser.UserName, newUser.Id);
+            var token = await _jwt.GenerateToken(roles.ToList(), newUser.UserName, newUser.Id);
 
-            // ✅ Store token in cookie
-            //Response.Cookies.Append("jwt", token, new CookieOptions
-            //{
-            //    HttpOnly = true,
-            //    Secure = true,
-            //    SameSite = SameSiteMode.Strict,
-            //    Expires = DateTimeOffset.UtcNow.AddHours(1)
-            //});
+
+            Response.Cookies.Append("jwt", token, new CookieOptions
+            {
+                HttpOnly = true,
+                Secure = true,
+                SameSite = SameSiteMode.Strict,
+                Expires = DateTimeOffset.UtcNow.AddHours(1)
+            });
+
+            //await _signIn.SignInAsync(newUser, false);
 
             return RedirectToAction("Index", "Home");
         }
@@ -190,24 +194,29 @@ namespace Hello.Controllers
 
             var roles = await _userManager.GetRolesAsync(user);
 
-            //var token = _jwt.GenerateToken(roles.ToList(), user.UserName, user.Id);
+            var token =await  _jwt.GenerateToken(roles.ToList(), user.UserName, user.Id);
 
-            // ✅ Store token in cookie
-            //Response.Cookies.Append("jwt", token, new CookieOptions
-            //{
-            //    HttpOnly = true,
-            //    Secure = true,
-            //    SameSite = SameSiteMode.Strict,
-            //    Expires = DateTimeOffset.UtcNow.AddHours(1)
-            //});
+
+            Response.Cookies.Append("jwt", token, new CookieOptions
+            {
+                HttpOnly = true,
+                Secure = true,
+                SameSite = SameSiteMode.Strict,
+                Expires = DateTimeOffset.UtcNow.AddHours(1)
+            });
+
+            //await _signIn.SignInAsync(user, false);
+            Console.WriteLine(token);
+
 
             return RedirectToAction("Index", "Home");
         }
 
 
-        public IActionResult Logout()
+        public async Task<IActionResult> Logout()
         {
-            // ✅ Delete token from cookie
+            //await _signIn.SignOutAsync();
+
             Response.Cookies.Delete("jwt");
             return RedirectToAction("Index", "Home");
         }
