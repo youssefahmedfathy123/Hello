@@ -1,0 +1,13 @@
+C:\Users\VIP\Desktop\Hello\Hello.Domain.Shared\bin\Debug\net9.0\Hello.Domain.Shared.deps.json
+C:\Users\VIP\Desktop\Hello\Hello.Domain.Shared\bin\Debug\net9.0\Hello.Domain.Shared.dll
+C:\Users\VIP\Desktop\Hello\Hello.Domain.Shared\bin\Debug\net9.0\Hello.Domain.Shared.pdb
+C:\Users\VIP\Desktop\Hello\Hello.Domain.Shared\obj\Debug\net9.0\Hello.Domain.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VIP\Desktop\Hello\Hello.Domain.Shared\obj\Debug\net9.0\Hello.Domain.Shared.AssemblyInfoInputs.cache
+C:\Users\VIP\Desktop\Hello\Hello.Domain.Shared\obj\Debug\net9.0\Hello.Domain.Shared.AssemblyInfo.cs
+C:\Users\VIP\Desktop\Hello\Hello.Domain.Shared\obj\Debug\net9.0\Hello.Domain.Shared.csproj.CoreCompileInputs.cache
+C:\Users\VIP\Desktop\Hello\Hello.Domain.Shared\obj\Debug\net9.0\Hello.Domain.Shared.dll
+C:\Users\VIP\Desktop\Hello\Hello.Domain.Shared\obj\Debug\net9.0\refint\Hello.Domain.Shared.dll
+C:\Users\VIP\Desktop\Hello\Hello.Domain.Shared\obj\Debug\net9.0\Hello.Domain.Shared.pdb
+C:\Users\VIP\Desktop\Hello\Hello.Domain.Shared\obj\Debug\net9.0\ref\Hello.Domain.Shared.dll
+C:\Users\VIP\Desktop\Hello\Hello.Domain.Shared\obj\Debug\net9.0\Hello.Domain.Shared.sourcelink.json
+C:\Users\VIP\Desktop\Hello\Hello.Domain.Shared\obj\Debug\net9.0\Hello.Domain.Shared.csproj.AssemblyReference.cache

@@ -1,0 +1,16 @@
+C:\Users\VIP\Desktop\Hello\Hello.Contract\bin\Debug\net9.0\Hello.Contract.deps.json
+C:\Users\VIP\Desktop\Hello\Hello.Contract\bin\Debug\net9.0\Hello.Contract.dll
+C:\Users\VIP\Desktop\Hello\Hello.Contract\bin\Debug\net9.0\Hello.Contract.pdb
+C:\Users\VIP\Desktop\Hello\Hello.Contract\obj\Debug\net9.0\Hello.Contract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VIP\Desktop\Hello\Hello.Contract\obj\Debug\net9.0\Hello.Contract.AssemblyInfoInputs.cache
+C:\Users\VIP\Desktop\Hello\Hello.Contract\obj\Debug\net9.0\Hello.Contract.AssemblyInfo.cs
+C:\Users\VIP\Desktop\Hello\Hello.Contract\obj\Debug\net9.0\Hello.Contract.csproj.CoreCompileInputs.cache
+C:\Users\VIP\Desktop\Hello\Hello.Contract\obj\Debug\net9.0\Hello.Contract.dll
+C:\Users\VIP\Desktop\Hello\Hello.Contract\obj\Debug\net9.0\refint\Hello.Contract.dll
+C:\Users\VIP\Desktop\Hello\Hello.Contract\obj\Debug\net9.0\Hello.Contract.pdb
+C:\Users\VIP\Desktop\Hello\Hello.Contract\obj\Debug\net9.0\ref\Hello.Contract.dll
+C:\Users\VIP\Desktop\Hello\Hello.Contract\obj\Debug\net9.0\Hello.Contract.csproj.AssemblyReference.cache
+C:\Users\VIP\Desktop\Hello\Hello.Contract\obj\Debug\net9.0\Hello.Contract.sourcelink.json
+C:\Users\VIP\Desktop\Hello\Hello.Contract\bin\Debug\net9.0\Hello.Domain.Shared.dll
+C:\Users\VIP\Desktop\Hello\Hello.Contract\bin\Debug\net9.0\Hello.Domain.Shared.pdb
+C:\Users\VIP\Desktop\Hello\Hello.Contract\obj\Debug\net9.0\Hello.Co.BEF5DAF9.Up2Date

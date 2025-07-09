@@ -1,0 +1,52 @@
+﻿@model IEnumerable<UserVM>
+
+
+@{
+    ViewData["Title"] = "Users List";
+}
+
+
+
+<h2 class="mt-4">Users List</h2>
+
+<table class="table table-bordered table-striped mt-3">
+    <thead class="thead-dark">
+        <tr>
+            <th>Id</th>
+            <th>UserName</th>
+            <th>Email</th>
+            <th>Roles</th>
+            <th>Permissions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Id</td>
+                <td>@user.Email</td>
+                <td>
+                    @if (user.Roles != null && user.Roles.Any())
+                    {
+                        <ul>
+                            @foreach (var role in user.Roles)
+                            {
+                                <li>@role</li>
+                            }
+                        </ul>
+                    }
+                    else
+                    {
+                        <span class="text-muted">No roles</span>
+                    }
+                </td>
+                <td>
+                    <a class="btn btn-primary" asp-action="ManageRoles" asp-route-userId="@user.Id">Manage Roles</a>
+                </td>
+                <td>
+                    <a class="btn btn-primary" asp-action="ManagePermissions" asp-route-userId="@user.Id">ManagePermissions</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
